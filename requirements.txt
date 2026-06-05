@@ -1,0 +1,12 @@
+# Python 3.10+. Install PyTorch for your CUDA first (see README), then:
+#   pip install -r requirements.txt
+torch>=2.1.0,<2.12
+torchvision>=0.16.0
+timm==0.5.4
+FrEIA @ git+https://github.com/VLL-HD/FrEIA@1779d1fba1e21000fda1927b59eeac0a6fcaa284
+pyyaml>=6.0
+scikit-learn>=1.0.0
+numpy>=1.21.0
+Pillow>=9.0.0
+fvcore
+packaging

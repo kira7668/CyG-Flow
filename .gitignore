@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Downloaded VMamba backbone weights (see README)
+vim_small_midclstok/
+
+# External dependency (clone separately)
+VMamba/
+
+# Training / eval outputs
+_cyg_experiment_checkpoints/
+_bg_runs/
+*.csv
+
+# Virtual environments
+venv/
+.venv/
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
